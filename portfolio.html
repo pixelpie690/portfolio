@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukruti Juvekar</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5e8d1;
+      color: #101313;
+      margin: 0; line-height: 1.6;
+    }
+    header {
+      background-color: #4f7b7e;
+      color: rgb(248, 243, 243);
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 0 0 40px 40px;
+    }
+    .avatar {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 20px;
+      border: 3px solid #e8e4de;
+      font-size: 36px;
+      line-height: 100px;
+      border-radius: 50%;
+    }
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .card {
+      background-color: white;
+      border-top: 5px solid #4f7b7e;
+      border-radius: 10px;
+      box-shadow: 5px 5px 5px rgba(95, 142, 145, 0.3);
+      padding: 20px;
+      transition: 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .wide { grid-column: 1 / -1; }
+    h2 { color: #4f7b7e; margin-top: 0; }
+    .edu { border-left: 3px solid #bd462e; padding-left: 12px; }
+    .pill {
+      display: inline-block;
+      background-color: #4f7b7e;
+      color: white;
+      padding: 5px 14px;
+      border-radius: 20px;
+    }
+    a { color: #bd462e; font-weight: bold; }
+    footer { text-align: center; padding: 25px; color: #585544; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="avatar">NR</div>
+    <h1>Nishant Raj</h1>
+    <p>Student at Scaler School of Technology</p>
+  </header>
+  <main>
+    <div class="card wide">
+      <h2>👋 About Me</h2>
+      <p>Hi, I'm Nishant. I enjoy coding and learning how websites work. I am at the start of my tech journey and I learn best by building things myself.</p>
+    </div>
+    <div class="card">
+      <h2>🎓 Education</h2>
+      <p class="edu"><b>Scaler School of Technology</b><br>Currently studying</p>
+      <p class="edu"><b>Jain College</b><br>Class 12</p>
+      <p class="edu"><b>Kendriya Vidyalaya Sahibganj</b><br>Class 10</p>
+    </div>
+    <div class="card">
+      <h2>💻 Skills</h2>
+      <span class="pill">HTML</span> <span class="pill">Python</span> <span class="pill">Git</span>
+      <span class="pill">GitHub</span> <span class="pill">VS Code</span> <span class="pill">Teamwork</span>
+    </div>
+    <div class="card wide">
+      <h2>🚀 Projects</h2>
+      <p><b>Personal Portfolio</b><br>A simple website built with HTML and CSS to introduce myself.</p>
+    </div>
+    <div class="card wide">
+      <h2>🎯 Interests and Goals</h2>
+      <p>I enjoy coding, solving puzzles and exploring how apps are made. My goal is to become a strong software developer and build real projects.</p>
+    </div>
+    <div class="card wide">
+      <h2>📬 Contact</h2>
+      <p>Email: <a href="mailto:nishant.26bcs10146@sst.scaler.com">nishant.26bcs10146@sst.scaler.com</a></p>
+      <p>GitHub: <a href="https://github.com/nishant">github.com/nishant</a></p>
+    </div>
+  </main>
+  <hr>
+  <footer>Made by Nishant Raj</footer>
+</body>
+</html>
